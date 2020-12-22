@@ -2,21 +2,6 @@ require_relative 'Graph'
 require_relative 'Node'
 require_relative 'BFS'
 
-# alpha_array = ('a'..'z').to_a
-
-# def set_nodes(size)
-#     nodes = []
-#     until nodes.size == size
-#         name_node(nodes.size)
-#         nodes << Node.new(name)
-#     end
-# end
-
-# def name_node(index)
-#     if index > alpha_array.size
-#         name_node(index - alpha_array.size)
-#     end
-# end
 
 G = Graph.new
 
